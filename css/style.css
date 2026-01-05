@@ -180,3 +180,39 @@ header .hero-container{
     font-size: 1.1rem;
     
 }
+#skills-sec .flex{
+    margin-top: 50px;
+    gap: 24px;
+    
+}
+#skills-sec .flex .skill-card{
+    max-width: 262px;
+    padding: 30px 27px ;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0,0.06) ;
+    transition: 0.3s;
+    border: 1px solid #fff;
+}
+#skills-sec .flex .skill-card:hover{
+    border: 1px solid #FD6E0A;
+    transform: translateY(-10px) scale(1.01);
+
+}
+#skills-sec .flex .skill-card img{
+    width: 44px;
+    margin-bottom: 30px;
+}
+#skills-sec .flex .skill-card h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #181818;
+}
+#skills-sec .flex .skill-card p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
