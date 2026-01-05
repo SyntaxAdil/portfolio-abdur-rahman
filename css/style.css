@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body,
+.font-open-sans{
+   font-family: "Open Sans", sans-serif;
+
+}
+
+ol,ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  line-height: 1.8;
+}
+
+img{
+  vertical-align: middle;
+}
+.btn{
+    background: #FD6E0A;
+    color: #fff;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.4s, color 0.4s;
+}
+.btn:hover{
+    background: #c75402;
+}
+
+.container{
+    max-width: 71%;
+    width: 1140px;
+    margin: 0 auto;
+
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.color-orange{
+    color: #FD6E0A;
+}
+
+/* main  */
+
+header{
+    background: url(../images/developer.png),url(../images/header_bg.png),#FFF8F3;
+    background-repeat: no-repeat;
+    background-size:98px,700px;
+    background-position: 36px 23px, bottom right;
+    
+    padding-top: 50px;
+
+}
+header nav{
+    justify-content: space-between;
+}
+header nav .logo h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+header nav ul{
+    gap: 60px;
+    align-items: center;
+
+}
+nav ul li a{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 5px;
+    color: #474747; 
+    transition: color 0.4s;
+
+}
+
+nav ul li a:hover{
+    color: #000;
+}
+header .hero-container{
+    min-width: 1137px;
+    margin:5px 0px 0 230px;
+    margin-bottom: 30px;
+    align-items: center;
+
+    justify-content: space-between;
+    
+
+}
+.hero-content{
+    max-width: 685px;
+   
+
+}
+.hero-content h4{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    
+}
+.hero-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.hero-content p{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 60px;
+    color: #757575;
+
+}
+
+.hero-content .flex{
+ gap: 30px;
+}
+.hero-content .flex a:last-child {
+    background: transparent;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    
+}
+.hero-content .flex a:last-child:hover{
+    background: #FD6E0A;
+    color: #fff;
+}
+.hero-img img{
+    max-width: 985px;
+    width: 700px;
+}
