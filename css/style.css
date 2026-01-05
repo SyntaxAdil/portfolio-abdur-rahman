@@ -215,4 +215,105 @@ header .hero-container{
     line-height: 28px;
 
 }
+#resume-section .flex{
+    margin: 113px 0 0 0;
+    justify-content: space-between;
+}
+#resume-section .flex:last-of-type{
+    justify-content: center;
+    margin: 0;
+}
+#resume-section .flex:last-of-type a{
+    margin: 69px 0 131px;
 
+}
+#resume-section .resume-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+color: #474747;
+
+}
+#resume-section .resume-card {
+    max-width: 512px;
+
+}
+#resume-section .resume-card h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+}
+
+#resume-section .resume-card p{
+    font-size:20px ;
+    font-weight: 500;
+    color: #757575;
+    margin-bottom: 20px;
+}
+#resume-section .resume-card small{
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+#resume-section hr{
+    
+    margin: 30px 0;
+    border-color: #d1d1d1;
+}
+
+footer{
+    padding: 130px 0;
+    background: #FFF8F3;
+}
+footer .flex{
+    justify-content: space-between;
+}
+footer .footer-con{
+    max-width: 562px;
+}
+footer .footer-con h4,
+.footer-form{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #181818;
+
+
+}
+footer .footer-con p{
+    line-height: 28px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+footer .footer-con .icon-container{
+    display: flex;  
+    gap:24px ;
+}
+footer .footer-con .icon-container img{
+    transition: 0.3s;
+}
+footer .footer-con .icon-container img:hover{
+    transform: translateY(-5px);
+    filter: drop-shadow(0 0 5px #c7540242 ) ;
+    
+}
+footer .footer-form{
+    width: 464px;
+}
+footer .footer-form h4{
+    margin-bottom: calc(28px - 12px);
+}
+footer .footer-form input,textarea{
+width: 100%;
+padding: 18px 30px;
+color: #454545;
+font-size: 16px;
+border:none ;
+border-radius: 5px;
+margin: 12px 0;
+resize: none;
+}
